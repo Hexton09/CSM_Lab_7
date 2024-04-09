@@ -1,0 +1,48 @@
+/* src/components/Dashboard.css */
+
+.dashboard {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .summary-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .summary-item h2 {
+    color: #555;
+  }
+  
+  .recent-activity {
+    margin-top: 30px;
+  }
+  
+  .recent-activity h2 {
+    color: #555;
+  }
+  
+  .recent-activity ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-activity li {
+    margin-bottom: 10px;
+  }
+  

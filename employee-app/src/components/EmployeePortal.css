@@ -1,0 +1,73 @@
+/* src/components/EmployeePortal.css */
+
+.employee-portal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #310f2f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .logout {
+    margin-top: 20px;
+  }
+  
+  .logout button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout button:hover {
+    background-color: #bd2130;
+  }
+  
+  /* Additional styles for Profile, TaskList, TrainingCourses, LeaveApplicationForm can be added here */
+  
+  /* Example styles for Profile component */
+  .profile {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .profile h2 {
+    color: #333;
+  }
+  
+  /* Example styles for TaskList component */
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-list h2 {
+    color: #333;
+  }
+  
+  /* Example styles for TrainingCourses component */
+  .training-courses {
+    margin-top: 20px;
+  }
+  
+  .training-courses h2 {
+    color: #333;
+  }
+  
+  /* Example styles for LeaveApplicationForm component */
+  .leave-form {
+    margin-top: 20px;
+  }
+  
+  .leave-form h2 {
+    color: #333;
+  }
+  
